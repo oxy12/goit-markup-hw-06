@@ -347,6 +347,8 @@ border-radius: 50%;
     .socials-link:hover,
     .socials-link:focus {
         background-color: #404bbf;
+        fill: currentColor;
+
     }
     .customers-list{
         display: flex;
@@ -362,25 +364,26 @@ border-radius: 50%;
         width: 168px;
         height: 88px;
         border: 1px solid #8E8F99;
-        border-radius: 4px;
-        color:#8E8F99;
-        fill:#404BBF;
-    
+        border-radius: 4px; 
+        color: #8E8F99;
     }
     .customers-link:hover,
     .customers-link:focus {
         border: 1px solid #404BBF;
-        fill:currentColor;
+        color:#404BBF;
+        
     
     }
     .customers-icon{
-        height: 56px;
         fill:currentColor;
+        
     }
     .customers-icon:hover
     .customers-icon:focus{
         color:#404BBF;
-        fill:#404BBF;
+        border:1px solid #404BBF;
+
+        
 
     }
 
@@ -428,6 +431,25 @@ border-radius: 50%;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
     }
+    .button-portfolio-all{
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        padding:12px 24px;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        background: #404BBF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    }
+    .button-portfolio-all:hover,
+    .button-portfolio-all:focus{
+        color:#404BBF;
+
+    }
     .example-buttons{
         display: flex;
         gap: 24px;
@@ -456,13 +478,14 @@ border-radius: 50%;
 .link-portfolio{
     text-decoration:none;
     color:currentColor;
+    display: block;
 
 }
 .link-portfolio:hover,
 .link-portfolio:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    display: block;
+    
 }
 /*=footer-container=================FOOTER===============*/
 
@@ -519,6 +542,7 @@ color: #F4F4FD;
     gap: 16px;
     align-items: center;
     margin-top: 16px;
+    justify-content: center;
 
 }
 .socials-footer-link{
@@ -531,16 +555,18 @@ color: #F4F4FD;
     background: rgba(255, 255, 255, 0.1);
 }
 .social-icon{
-
-    fill:currentColor;
-    width: 24px;
-    height: 24px;
+    fill: currentColor;
+height: 16px;
 
 }
 .socials-footer-link:hover,
 .socials-footer-link focus {
     background-color: #31d0aa;
 
+}
+.social-icon-footer{
+    fill:currentColor;
+    height:24px;  
 }
 
 /*=================/FOOTER===============*/
