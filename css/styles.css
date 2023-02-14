@@ -614,23 +614,6 @@ color: #F4F4FD;
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier (0.4, 0, 0.2, 1);
 }
-.modal{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-background:#FCFCFC;
-width: 408px;
-height: 576px;
-border-radius: 4px;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-transform: translate(-50%, -50%) scale(1);
-transition-property: transform;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .backdrop.js-hidden{
     opacity: 0;
     pointer-events: none;
@@ -649,6 +632,24 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background:#FCFCFC;
+width: 408px;
+height: 576px;
+border-radius: 4px;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+transform: translate(-50%, -50%) scale(1);
+transition-property: transform;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .modal-button{
 
     display: flex;
@@ -660,8 +661,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     right: 10px;
     width: 24px;
     height: 24px;
-    background-color: var(--modal-button);
+    background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+
+    
 }
+
 
